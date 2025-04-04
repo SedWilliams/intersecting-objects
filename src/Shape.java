@@ -43,7 +43,12 @@ public class Shape extends PApplet {
 
         p.stroke(this.borderColor);
         p.fill(this.shapeColor);
-        p.ellipse(width/2, height/2, this.radius, this.radius);
+        p.ellipse(this.x, this.y, this.radius, this.radius);
+    }
+
+    void updateShapePos(float x, float y) {
+        this.x = x;
+        this.y = y;
     }
 
 }
