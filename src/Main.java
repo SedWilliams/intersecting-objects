@@ -1,5 +1,9 @@
 import processing.core.PApplet;
 
+/*TODO:
+* Delete .class files
+*/
+
 public class Main extends PApplet {
 
     Shape innerShape = new ShapeBuilder().setRadius(40).setX(500f).setY(400f).setP(this).build();
